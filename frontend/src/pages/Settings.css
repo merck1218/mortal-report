@@ -1,0 +1,31 @@
+.settings-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.settings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.settings-table th,
+.settings-table td {
+  border: 2px solid #ccc;
+  padding: 0.6rem; 
+  text-align: center;
+}
+
+.settings-table th {
+  background-color: #f0f0f0;
+}
+
+input {
+  width: 80%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}

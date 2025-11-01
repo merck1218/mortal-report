@@ -1,0 +1,49 @@
+.top-main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.top-main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.top-overview {
+  width: 60%;
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.top-overview img {
+  width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding: 0 65px;
+  text-align: center;
+}
+
+h3:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: '';
+  background: #000;
+}
+
+h3 span {
+  position: relative;
+  padding: 0 1em;
+  background: #fff;
+}

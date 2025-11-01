@@ -1,0 +1,39 @@
+.statistics-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.filter-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-controls label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.statistics-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statistics-table th,
+.statistics-table td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.statistics-table th {
+  background-color: #f0f0f0;
+}
+
+.filter-controls select {
+  padding: 0.4rem;
+  font-size: 1rem;
+}

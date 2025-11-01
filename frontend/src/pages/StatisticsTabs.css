@@ -1,0 +1,31 @@
+.statistics-tabs-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab-buttons button.active {
+  background-color: #0077cc;
+  color: white;
+  border-color: #0077cc;
+}
+
+.tab-content {
+  margin-top: 1rem;
+}

@@ -1,0 +1,46 @@
+.statistics-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.compare-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.compare-column {
+  flex: 1;
+  min-width: 400px;
+}
+
+.filter-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-controls label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.statistics-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statistics-table th,
+.statistics-table td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.statistics-table th {
+  background-color: #f0f0f0;
+}
